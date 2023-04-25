@@ -36,8 +36,8 @@ The website is built with Next.js and TailwindCSS, and is hosted on Vercel. The 
 * [Simulator](placeholder)
 * [Raspberry Pi](placeholder)
 * [Image Recognition](placeholder)
-* [HuggingFace Space](placeholder)
-* [Task 1 Model](placeholder)
-* [Task 2 Model](placeholder)
+* [HuggingFace Space](https://huggingface.co/spaces/pyesonekyaw/Image_Recognition-CZ3004_SC2079_Multidisciplinary_Project-NTU_SG)
+* [Task 1 Model](https://huggingface.co/pyesonekyaw/MDP_ImageRecognition_YOLOv5_Week_8_AY22-23_NTU-SG)
+* [Task 2 Model](https://huggingface.co/pyesonekyaw/MDP_ImageRecognition_YOLOv5_Week_9_AY22-23_NTU-SG)
 
-Acknowledgements for the works I refereced can be found in the respective repositories.
+Acknowledgements for the works I referenced can be found in the respective repositories.

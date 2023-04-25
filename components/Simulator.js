@@ -312,29 +312,29 @@ export default function Simulator() {
         if (foundOb) {
           if (foundOb.d === Direction.WEST) {
             cells.push(
-              <td key={i*100+j} className="border border-l-4 border-l-red-500 w-5 h-5 md:w-8 md:h-8 bg-blue-700" />
+              <td  className="border border-l-4 border-l-red-500 w-5 h-5 md:w-8 md:h-8 bg-blue-700" />
             );
           } else if (foundOb.d === Direction.EAST) {
             cells.push(
-              <td key={i*100+j} className="border border-r-4 border-r-red-500 w-5 h-5 md:w-8 md:h-8 bg-blue-700" />
+              <td  className="border border-r-4 border-r-red-500 w-5 h-5 md:w-8 md:h-8 bg-blue-700" />
             );
           } else if (foundOb.d === Direction.NORTH) {
             cells.push(
-              <td key={i*100+j} className="border border-t-4 border-t-red-500 w-5 h-5 md:w-8 md:h-8 bg-blue-700" />
+              <td  className="border border-t-4 border-t-red-500 w-5 h-5 md:w-8 md:h-8 bg-blue-700" />
             );
           } else if (foundOb.d === Direction.SOUTH) {
             cells.push(
-              <td key={i*100+j} className="border border-b-4 border-b-red-500 w-5 h-5 md:w-8 md:h-8 bg-blue-700" />
+              <td  className="border border-b-4 border-b-red-500 w-5 h-5 md:w-8 md:h-8 bg-blue-700" />
             );
           } else if (foundOb.d === Direction.SKIP) {
             cells.push(
-              <td key={i*100+j} className="border w-5 h-5 md:w-8 md:h-8 bg-blue-700" />
+              <td  className="border w-5 h-5 md:w-8 md:h-8 bg-blue-700" />
             );
           }
         } else if (foundRobotCell) {
           if (foundRobotCell.d !== null) {
             cells.push(
-              <td key={i*100+j}
+              <td 
                 className={`border w-5 h-5 md:w-8 md:h-8 ${
                   foundRobotCell.s != -1 ? "bg-red-500" : "bg-yellow-300"
                 }`}
@@ -342,12 +342,12 @@ export default function Simulator() {
             );
           } else {
             cells.push(
-              <td key={i*100+j} className="bg-green-600 border-white border w-5 h-5 md:w-8 md:h-8" />
+              <td  className="bg-green-600 border-white border w-5 h-5 md:w-8 md:h-8" />
             );
           }
         } else {
           cells.push(
-            <td key={i*100+j+1} className="border-black border w-5 h-5 md:w-8 md:h-8" />
+            <td className="border-black border w-5 h-5 md:w-8 md:h-8" />
           );
         }
       }
@@ -358,7 +358,7 @@ export default function Simulator() {
     const yAxis = [<td key={0} />];
     for (let i = 0; i < 20; i++) {
       yAxis.push(
-        <td key={i + 1} className="w-5 h-5 md:w-8 md:h-8">
+        <td className="w-5 h-5 md:w-8 md:h-8">
           <span className="text-sky-900 font-bold text-[0.6rem] md:text-base ">
             {i}
           </span>
