@@ -504,6 +504,7 @@ export default function Simulator() {
               <option value={ObDirection.SOUTH}>Down</option>
               <option value={ObDirection.WEST}>Left</option>
               <option value={ObDirection.EAST}>Right</option>
+              <option value={ObDirection.SKIP}>None</option>
             </select>
             <button className="btn btn-success p-2" onClick={onClickObstacle}>
               Add
