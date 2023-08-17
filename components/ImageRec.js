@@ -48,7 +48,7 @@ export default function ImageRec() {
           
         </div>
       </div>
-      <gradio-app src="https://pyesonekyaw-image-recognition-cz3004-sc2079-multidiscip-848afe7.hf.space"></gradio-app>
+      <gradio-app src="https://pyesonekyaw-image-recognition-cz3004-sc2079-mult-848afe7.hf.space"></gradio-app>
       <div className="flex flex-col items-center text-center bg-sky-200 rounded-xl shadow-xl my-8">
         <div className="card-body items-center text-center p-4">
           <h2 className="card-title text-black">Closing Thoughts</h2>
