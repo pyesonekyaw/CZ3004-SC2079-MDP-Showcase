@@ -11,8 +11,7 @@ export default function RaspberryPi() {
             system, and is reponsible for communicating with all of the
             different components. There is not much innovation to be done with
             the Raspberry Pi, just a series of child processes to handle/monitor
-            each component and pass messages along will suffice. I will
-            elaborate more about what I did in a blogpost to come. For now, here
+            each component and pass messages along will suffice. Here
             is the source code for Raspberry Pi.
           </p>
           <ul className="space-y-4 list-inside list-disc text-left text-sm md:text-base text-sky-800">

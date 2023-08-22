@@ -51,7 +51,7 @@ export default function ImageRec() {
       <gradio-app src="https://pyesonekyaw-image-recognition-cz3004-sc2079-mult-848afe7.hf.space"></gradio-app>
       <div className="flex flex-col items-center text-center bg-sky-200 rounded-xl shadow-xl my-8">
         <div className="card-body items-center text-center p-4">
-          <h2 className="card-title text-black">Closing Thoughts</h2>
+          <h2 className="card-title text-black">Some Thoughts</h2>
           <p className="text-black text-justify text-sm md:text-base">
             Symbol recognition, or image recognition as students like to call
             it, is an incredibly easy and foolproof task. You do not need more
@@ -68,7 +68,10 @@ export default function ImageRec() {
             Raspberry Pi camera, the code for which can be found in the pipeline
             repository.
           </p>
-          
+          <p className="text-black text-justify text-sm md:text-base">
+            Post graduation update: If the model doesn't get a perfect score for the tasks, you should probably fail the person's peer review. 
+            At least from what my juniors told me, the entire codebase across all my MDP-related repositories is still entirely reusuable for 2023 Semester 1.
+          </p>
         </div>
       </div>
     </div>

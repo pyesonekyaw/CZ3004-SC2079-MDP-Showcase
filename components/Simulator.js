@@ -399,7 +399,7 @@ export default function Simulator() {
               <li>
                 <Link
                   className="  text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-                  href="https://huggingface.co/spaces/pyesonekyaw/Image_Recognition-CZ3004_SC2079_Multidisciplinary_Project-NTU_SG"
+                  href="https://github.com/pyesonekyaw/CZ3004-SC2079-MDP-Algorithm"
                 >
                   Algorithm Repository
                 </Link>
@@ -407,7 +407,7 @@ export default function Simulator() {
               <li>
                 <Link
                   className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-                  href="https://huggingface.co/pyesonekyaw/MDP_ImageRecognition_YOLOv5_Week_8_AY22-23_NTU-SG"
+                  href="https://github.com/pyesonekyaw/CZ3004-SC2079-MDP-Simulator"
                 >
                   Simulator Repository
                 </Link>
@@ -616,7 +616,7 @@ export default function Simulator() {
 
       <div className="flex flex-col items-center text-center bg-sky-200 rounded-xl shadow-xl my-8">
         <div className="card-body items-center text-center p-4">
-          <h2 className="card-title text-black">Closing Thoughts</h2>
+          <h2 className="card-title text-black">Some Thoughts</h2>
           <p className="text-black text-justify text-sm md:text-base">
             By making most of my source code and this simulator available, I
             hope that MDP will change to not be so boring and repetitive where
@@ -632,6 +632,9 @@ export default function Simulator() {
             viable. This should not be the case, and I hope that my repositories
             can be used as the baseline for future teams to build on top of.
           </p>
+          <p className="text-black text-justify text-sm md:text-base">
+            Post graduation update: SCSE does NOT care that you reuse code from past semesters (Just take a look at the Android controllers from the past few semesters).
+            At least from what my juniors told me, the entire codebase across all my MDP-related repositories is still entirely reusuable for 2023 Semester 1.</p>
           <p className="text-black font-bold font-sans">Acknowledgements</p>
           <ul className="text-sm md:text-base">
             <li>
