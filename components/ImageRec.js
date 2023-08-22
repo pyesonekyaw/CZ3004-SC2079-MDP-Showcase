@@ -69,7 +69,7 @@ export default function ImageRec() {
             repository.
           </p>
           <p className="text-black text-justify text-sm md:text-base">
-            Post graduation update: If the model doesn't get a perfect score for the tasks, you should probably fail the person's peer review. 
+            Post graduation update: If the model doesn&apos; get a perfect score for the tasks, you should probably fail the person&apos;s peer review. 
             At least from what my juniors told me, the entire codebase across all my MDP-related repositories is still entirely reusuable for 2023 Semester 1.
           </p>
         </div>
