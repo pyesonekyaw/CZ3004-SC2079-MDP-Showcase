@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^2.2.9",
+    "@tailwindcss/postcss": "^4.1.17",
     "daisyui": "^5.5.8",
     "eslint": "^9.39.1",
     "eslint-config-next": "^16.0.7",
