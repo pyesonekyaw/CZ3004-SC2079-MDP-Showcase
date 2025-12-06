@@ -1,11 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-}
-
-// module.exports = nextConfig
-
-module.exports = {
+  experimental: {
+    turbopackUseSystemTlsCerts: true,
+  },
   async headers() {
     return [
       {
@@ -21,3 +19,5 @@ module.exports = {
     ]
   }
 };
+
+module.exports = nextConfig;
